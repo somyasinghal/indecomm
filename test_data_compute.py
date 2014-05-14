@@ -16,7 +16,7 @@ class ExpectedOutput(unittest.TestCase):
 
     def test_to_roman_known_values(self):
         '''compute_company_data should give known result as output_values'''
-        result = data_compute.compute_company_data('sampledata.csv')
+        result = data_compute.compute_company_data('input_data.csv')
         self.assertEqual(list(self.output_values), result)
 
 if __name__ == '__main__':
