@@ -1,4 +1,0 @@
-indecomm
-========
-
-program for indecommGlobal
