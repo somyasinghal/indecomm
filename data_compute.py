@@ -48,6 +48,7 @@ def compute_company_data(file_name) :
     except:
         raise Exception("invalid data")
             
+    print "output in form of list [ Comapany Nmae, year, Month, Share Price]: \n"  + repr(output_list)
     return output_list
 
 if __name__ == '__main__':
