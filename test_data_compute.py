@@ -11,7 +11,7 @@ class ExpectedOutput(unittest.TestCase):
     output_values = ( ['A', '1991', 'Dec', '240'],
                       ['B', '1991', 'Sep', '300'],
                       ['C', '1991', 'Jul', '200'],
-                      ['D', '1991', 'May', '101']                     
+                      ['D', '1991', 'May', '200']                     
                      )
 
     def test_to_roman_known_values(self):
